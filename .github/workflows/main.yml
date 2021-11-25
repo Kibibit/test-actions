@@ -23,7 +23,7 @@ jobs:
       - name: Create Hotfix 2nd PR
         # You may pin to the exact commit or the version.
         # uses: Kibibit/create-hotfix-pr@344c82e54b2a8e65dd6ffcab3332449d0cf50c7d
-        uses: Kibibit/create-hotfix-pr@v1.0.0-beta.3
+        uses: Kibibit/create-hotfix-pr@v1.0.0-beta.4
         with:
           # github token
           token: ${{ secrets.BOT_TOKEN }}
